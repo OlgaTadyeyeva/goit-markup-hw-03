@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
-        integrity="sha512-l0ofWk9slhBYzFo/8jFXBHNcPIZ4CekhhC4mtj9EZ47ed+Gdt4txfOF2+VAH/YdxFFf1ODtTuaGXZR6ygHsa7w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -46,67 +46,85 @@
             <div class="container">
                 <h1 class="visually-hidden">Портфоліо</h1>
                     <ul class="button-list list">
-                        <li>
+                        <li class="button-item">
                             <button type="button" class="button-btn current-btn">Все</button>
                         </li>
-                        <li>
+                        <li class="button-item">
                             <button type="button" class="button-btn">Веб-сайты</button>
                         </li>
-                        <li>
+                        <li class="button-item">
                             <button type="button" class="button-btn">Додатки</button>
                         </li>
-                        <li>
+                        <li class="button-item">
                             <button type="button" class="button-btn">Дизайн</button>
                         </li>
-                        <li>
+                        <li class="button-item">
                             <button type="button" class="button-btn">Маркетинг</button>
                         </li>
                     </ul>
                 <ul class="portfolio-list list">
                     <li class="portfolio-item">
                         <img src="./images/img-1.jpg" alt="веб-сайт" width="370" height="294">
-                        <h2 class="portfolio-title">Технокряк</h2>
-                        <p class="portfolio-text">Веб-сайт</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Технокряк</h2>
+                            <p class="portfolio-text">Веб-сайт</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/img-2.jpg" alt="Дизайн" width="370" height="294">
-                        <h2 class="portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                        <p class="portfolio-text">Дизайн</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                            <p class="portfolio-text">Дизайн</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/img-3.jpg" alt="Додаток" width="370" height="294">
-                        <h2 class="portfolio-title">Ресторан<span lang="en">Seafood</span></h2>
-                        <p class="portfolio-text">Додаток</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Ресторан<span lang="en">Seafood</span></h2>
+                            <p class="portfolio-text">Додаток</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/img-4.jpg" alt="Маркетинг" width="370" height="294">
-                        <h2 class="portfolio-title">Проєкт<span lang="en">Prime</span></h2>
-                        <p class="portfolio-text">Маркетинг</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Проєкт<span lang="en">Prime</span></h2>
+                            <p class="portfolio-text">Маркетинг</p>
+                        </div>                                             
                     </li>
                     <li>
                         <img src="./images/img-5.jpg" alt="Додаток" width="370" height="294">
-                        <h2 class="portfolio-title">Проєкт <span lang="en">Boxes</span></h2>
-                        <p class="portfolio-text">Додаток</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Проєкт <span lang="en">Boxes</span></h2>
+                            <p class="portfolio-text">Додаток</p>
+                        </div>                        
                     </li>
                     <li>
                         <img src="./images/img-6.jpg" alt="Веб-сайт" width="370" height="294">
-                        <h2 lang="en" class="portfolio-title">Inspiration has no Borders</h2>
-                        <p class="portfolio-text">Веб-сайт</p>
+                        <div class="portfolio-wrap">
+                            <h2 lang="en" class="portfolio-title">Inspiration has no Borders</h2>
+                            <p class="portfolio-text">Веб-сайт</p>
+                        </div>                       
                     </li>
                     <li>
                         <img src="./images/img-7.jpg" alt="Дизайн" width="370" height="294">
-                        <h2 class="portfolio-title">Видання<span lang="en">Limited Edition</span></h2>
-                        <p class="portfolio-text">Дизайн</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Видання<span lang="en">Limited Edition</span></h2>
+                            <p class="portfolio-text">Дизайн</p>
+                        </div>                       
                     </li>
                     <li>
                         <img src="./images/img-8.jpg" alt="Маркетинг" width="370" height="294">
-                        <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
-                        <p class="portfolio-text">Маркетинг</p>
+                        <div class="portfolio-wrap">
+                            <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
+                            <p class="portfolio-text">Маркетинг</p>
+                        </div>                       
                     </li>
                     <li>
                         <img src="./images/img-9.jpg" alt="Додаток" width="370" height="294">
-                        <h2 lang="en" class="portfolio-title">Growing Business</h2>
-                        <p class="portfolio-text">Додаток</p>
+                        <div class="portfolio-wrap">
+                            <h2 lang="en" class="portfolio-title">Growing Business</h2>
+                            <p class="portfolio-text">Додаток</p>
+                        </div>                        
                     </li>
                 </ul>
             </div>
